@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/roamio/static/css/main.6516e675.css",
+    "main.js": "/roamio/static/js/main.c9738dc9.js",
+    "static/media/bg.png": "/roamio/static/media/bg.65e8d500ed4dd203bb8f.png",
+    "static/media/app.png": "/roamio/static/media/app.2ec8ec83fb36f5e5979e.png",
+    "index.html": "/roamio/index.html",
+    "main.6516e675.css.map": "/roamio/static/css/main.6516e675.css.map",
+    "main.c9738dc9.js.map": "/roamio/static/js/main.c9738dc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6516e675.css",
+    "static/js/main.c9738dc9.js"
+  ]
+}
