@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url(/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 100px 0;
+  height: 100vh;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 70px 0px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    li {
+      list-style: none;
+    }
+  }
+
+  .right {
+    button {
+      padding: 10px;
+      border-radius: 50px;
+      width: 120px;
+      border: none;
+      cursor: pointer;
+      a {
+        color: black;
+      }
+    }
+  }
+}
+
+.main-title {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  h1 {
+    max-width: 55%;
+    font-size: 5em;
+    text-align: center;
+  }
+}
+
+.input {
+  padding-top: 3.5em;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+.input input {
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 35%;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(234, 234, 234);
+  border: none; /* Remove the default border */
+}
+input:focus {
+  outline-width: 0;
+}
+
+.submit {
+  margin-left: 1em;
+  width: 80px;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#logo {
+  height: 30px;
+  padding-right: 20px;
+  margin-top: 1em;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin-top: 1em;
+  text-decoration: underline;
+}
+
+.result-section {
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for screens up to 768px */
+@media (max-width: 768px) {
+  .container {
+    margin: 0 20px;
+  }
+
+  .nav {
+    padding: 20px 0px;
+    ul {
+      gap: 20px;
+    }
+
+    .left {
+      font-size: 15px;
+    }
+
+    .center {
+      display: none;
+    }
+
+    .right {
+      button {
+        width: 80px;
+      }
+    }
+  }
+
+  .main-title {
+    h1 {
+      padding-top: 1em;
+      font-size: 2em;
+    }
+  }
+
+  .input {
+    padding-top: 4em;
+  }
+
+  .input input {
+    padding: 10px;
+    width: 60%;
+    height: 40px;
+  }
+
+  .submit {
+    width: 60px;
+  }
+
+  #logo {
+    height: 20px;
+    padding-right: 10px;
+    margin-top: 0.5em;
+  }
+
+  .link {
+    margin-top: 0.5em;
+  }
+
+  .result-section {
+    padding-top: 1em;
+  }
+}
